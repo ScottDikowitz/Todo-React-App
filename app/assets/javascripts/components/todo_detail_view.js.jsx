@@ -15,6 +15,7 @@ var TodoDetailView = React.createClass({
 
   todoStepsChanged: function(){
     this.setState({steps: TodoStore.stepsAll(this.props.todo.id)});
+
   },
 
   render: function(){
